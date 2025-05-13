@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/public/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# remix
+/.cache
+/build/
+/public/build/
+/server-build/
+
+# node-gyp
+/build/Release
+
+# dotenv environment variables file
+.env
+
+# WebContainer specific
+.webcontainer.run
+.webcontainer.config.json
+node_modules.tar.gz
